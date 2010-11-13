@@ -1,1 +1,3 @@
-<%= render "shared/products", :products => @products, :taxon => @taxon %>
+<% cache('homepage_products') do %>
+  <%= render "shared/products", :products => Product.on_homepage, :taxon => @taxon %>
+<% end %>
