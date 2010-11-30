@@ -1,7 +1,7 @@
-class HomepagerExtension < Spree::Extension
+class HomepageExtension < Spree::Extension
   version "1.1"
   description "Spree extension to create a homepage with some 'featured' products."
-  url "http://github.com/dwradcliffe/spree-homepager"
+  url "http://github.com/dwradcliffe/spree-homepage"
   
   def activate
     

@@ -1,3 +1,3 @@
-= Homepager
+= Spree Homepage 
 
-Description goes here
+This extension will display featured products on the homepage of the store.
